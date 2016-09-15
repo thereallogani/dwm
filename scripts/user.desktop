@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=User XSession script
+Comment=Runs your ~./Xsession script
+Exec=/etc/X11/Xsession
+Type=Application
