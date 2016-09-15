@@ -9,11 +9,11 @@ static const char *fonts[] = {
 	"Icons:size=10"
 };
 static const char dmenufont[]       = "DejaVu Sans Mono:size=12";
-static const char normbordercolor[] = "#FFFFFF";
-static const char normbgcolor[]     = "#FFFFFF";
-static const char normfgcolor[]     = "#767675";
-static const char selbordercolor[]  = "#9ec400";
-static const char selbgcolor[]      = "#9ec400";
+static const char normbordercolor[] = "#424541";
+static const char normbgcolor[]     = "#767675";
+static const char normfgcolor[]     = "#FFFFFF";
+static const char selbordercolor[]  = "#767675";
+static const char selbgcolor[]      = "#424541";
 static const char selfgcolor[]      = "#767675";
 static const unsigned int borderpx  = 4;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
@@ -23,7 +23,7 @@ static const int gappx              = 8;
 
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4" };
+static const char *tags[] = { "1", "2", "3", "4", "5", "6" };
 
 static const Rule rules[] = {
 	/* xprop(1):
