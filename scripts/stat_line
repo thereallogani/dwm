@@ -55,8 +55,8 @@ BAR_PIECES = [
 
 
 class Info():
-    battery_capacity_path = '/sys/class/power_supply/BAT0/energy_full'
-    battery_cur_path = '/sys/class/power_supply/BAT0/energy_now'
+    battery_capacity_path = '/sys/class/power_supply/BAT0/charge_full'
+    battery_cur_path = '/sys/class/power_supply/BAT0/charge_now'
     battery_state_path = '/sys/class/power_supply/BAT0/status'
 
     weather_check_interval = 18000
