@@ -1,0 +1,8 @@
+# Detect monitor to the right
+xrandr --output VGA1 --auto --right-of LVDS1
+
+# Pair bluetooth device
+bluetoothctl
+trust A0:E9:AF:10:62:3F
+pair A0:E9:AF:10:62:3F
+connect A0:E9:AF:10:62:3F
