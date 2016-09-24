@@ -12,7 +12,7 @@ static const char dmenufont[]       = "DejaVu Sans Mono:size=12";
 static const char normbordercolor[] = "#424541";
 static const char normbgcolor[]     = "#767675";
 static const char normfgcolor[]     = "#FFFFFF";
-static const char selbordercolor[]  = "#767675";
+static const char selbordercolor[]  = "#B34D4D";
 static const char selbgcolor[]      = "#424541";
 static const char selfgcolor[]      = "#767675";
 static const unsigned int borderpx  = 4;        /* border pixel of windows */
