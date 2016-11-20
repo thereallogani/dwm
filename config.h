@@ -71,15 +71,6 @@ static const char *dmenucmd[] = { "dmenu_run", "-fn", dmenufont, "-nb", normbgco
 
 static const char *term[]    = { "/usr/bin/gnome-terminal", NULL };
 
-static const char *vol_up[]  = { "amixer", "-q", "sset", "Master", "5%+", "unmute", NULL };
-static const char *vol_dwn[] = { "amixer", "-q", "sset", "Master", "5%-", "unmute", NULL };
-static const char *vol_mut[] = { "amixer", "-q", "sset", "Master", "toggle", NULL };
-
-static const char *media_tog[]  = { "/home/bryan/.bin/mediactl", "toggle", NULL };
-static const char *media_stp[]  = { "/home/bryan/.bin/mediactl", "stop", NULL };
-static const char *media_prv[]  = { "/home/bryan/.bin/mediactl", "prev", NULL };
-static const char *media_nxt[]  = { "/home/bryan/.bin/mediactl", "next", NULL };
-
 static const char *lock_cmd[]   = { "gnome-screensaver-command", "--lock", NULL };
 
 static Key keys[] = {
@@ -120,15 +111,6 @@ static Key keys[] = {
 	TAGKEYS(               XK_6,                                    5)
 	{ MODKEY|ShiftMask,    XK_q,                    quit,           {0} },
   { MODKEY|ShiftMask,    XK_b,                    banishpointer,  {0} },
-
-  { 0,                   XF86XK_AudioLowerVolume, spawn,          { .v = vol_dwn } },
-  { 0,                   XF86XK_AudioRaiseVolume, spawn,          { .v = vol_up  } },
-  { 0,                   XF86XK_AudioMute,        spawn,          { .v = vol_mut } },
-
-  { 0,                   XF86XK_AudioPlay,        spawn,          { .v = media_tog } },
-  { 0,                   XF86XK_AudioNext,        spawn,          { .v = media_nxt } },
-  { 0,                   XF86XK_AudioPrev,        spawn,          { .v = media_prv } },
-
   { ControlMask|MODKEY,  XK_space,                spawn,          { .v = lock_cmd } },
 
 };
