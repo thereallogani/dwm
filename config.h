@@ -10,7 +10,7 @@ static const char *fonts[] = {
 };
 static const char dmenufont[]       = "DejaVu Sans Mono:size=12";
 static const char normbordercolor[] = "#767675";
-static const char normbgcolor[]     = "#424541";
+static const char normbgcolor[]     = "#292929";
 static const char normfgcolor[]     = "#FFFFFF";
 static const char selbordercolor[]  = "#B34D4D";
 static const char selbgcolor[]      = "#767675";
