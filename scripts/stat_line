@@ -55,9 +55,9 @@ BAR_PIECES = [
 
 
 class Info():
-    battery_capacity_path = '/sys/class/power_supply/BAT0/charge_full'
-    battery_cur_path = '/sys/class/power_supply/BAT0/charge_now'
-    battery_state_path = '/sys/class/power_supply/BAT0/status'
+    battery_capacity_path = '/sys/class/power_supply/BAT1/charge_full'
+    battery_cur_path = '/sys/class/power_supply/BAT1/charge_now'
+    battery_state_path = '/sys/class/power_supply/BAT1/status'
 
     weather_check_interval = 18000
     weather_check_url = 'http://rss.accuweather.com/rss/liveweather_rss.asp'
