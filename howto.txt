@@ -1,0 +1,22 @@
+To install dwm from source:
+ 1. Set up config.h the way you want to (make sure paths to
+    everything are correct)
+ 2. Run make (you may have to install some depencies first)
+ 3. Once compiled, install feh (or similar program) to manage
+    the background. Then move scripts/.fehbg to you home directory
+    and specify the path to whatever image you want for your
+    background.
+ 4. Create a .fonts/ in your home directory move scripts/icons/icons.tff
+    into it. These set the icons used in the status_line python script
+ 5. Copy user.desktop to /usr/share/xsessions (if you are using a
+    display manager like gdm or lightdm, otherwise skip this) Also,
+    make sure that the paths in here are correct. I had issues on Fedora
+    with the path because the default /etc/X11/Xsession doesn't point to
+    .Xsession scripts in users' home directories.
+ 6. Copy the .Xsession script into you home directory (unless you aren't
+    using a display manager, in which case just move the commands to a
+    .xinitrc) and again check to make sure that all the paths are correct.
+    Also, make sure you are using gnome-screensaver or change that line
+    out to whatever you're using.
+
+After doing that, things should work. Hopefully.
